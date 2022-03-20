@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stijl.css">
+    <title>Alien Tamagotchi</title>
+</head>
+<body>
+    <main>
+        <h1>Alien Tamagotchi</h1>
+        <div id="speelruimte">
+            <img src="images/background.png" alt="achtergrond" id="achtergrond"> 
+           
+            <div id="maken">
+                <h2>Kies een gender:</h2>
+                <a id="jongen">Jongen</a>
+                <a id="meisje">Meisje</a>
+            
+                <h2>Verzin een naam:</h2>
+                <input type="text" placeholder="Naam" id='tekstinput'>
+    
+                <h2>Kies een kleur:</h2>
+                <p id="groen">Groen</p>
+                <p id="blauw">Blauw</p>
+                <p id="roze">Roze</p>
+                <p id="geel">Geel</p>
+                <button id="planeetkiezenknop">Volgende</button>
+            </div>
+
+            <div id="planeetkiezen" hidden>
+                <h1 id="titel2">Planeet kiezen</h1>
+                <a href="reizen.html"><img src="images/planeet_blauw.png" alt="planeetblauw" id="planeetBlauw"></a>
+                <a href="wereld2.html"><img src="images/planeet_rood.png" alt="planeetrood" id="planeetRood"></a>
+                <a href="wereld3.html"><img src="images/planeet_paars.png" alt="planeet_paars" id="planeetPaars"></a>
+            </div>
+
+            <img src="images/alien_man_groen.png" alt="alienmangroen" id="alien1">
+        </div>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

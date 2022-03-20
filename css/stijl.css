@@ -1,0 +1,83 @@
+h1 {
+    font-family: DODGER, Trebuchet MS;
+    text-align: center;
+    color: darkblue;
+}
+
+#speelruimte, #speelruimte2, #speelruimte3 {
+    width: 1000px;
+    position: relative; 
+    margin: auto;
+}
+
+#achtergrond {
+    width: 1000px;
+    height: 600px;
+}
+
+#alien1 {
+    position: absolute;
+    height: 520px;
+    top: 40px;
+    left: 250px;
+}
+
+#maken {
+    position: absolute;
+    width: 300px;
+    top: 75px;
+    right: 200px;
+    font-family: Trebuchet MS;
+}
+
+#planeetBlauw {
+    position: absolute;
+    width: 100px;
+    top: 200px;
+    right: 400px; 
+}
+
+#planeetRood {
+    position: absolute;
+    width: 100px;
+    top: 200px;
+    right: 275px;
+}
+
+#planeetPaars {
+    position: absolute;
+    width: 100px;
+    top: 200px;
+    right: 150px;
+ 
+}
+
+#titel2 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    right: 100px;
+}
+
+#wereld1, #wereld2, #wereld3 {
+    width: 1000px;
+    height: 600px;
+}
+
+#tekst, #tekst2, #tekst3 {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    font-family: Trebuchet MS;
+    color: white;
+}
+
+#opnieuwspelen {
+    position: absolute;
+    top: 100px;
+    right: 600px;
+    font-family: Trebuchet MS;
+    color: white;
+}
+
+
